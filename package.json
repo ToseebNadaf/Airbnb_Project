@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
-    "start": "npx ts-node src/server.ts",
+    "start": "ts-node src/server.ts",
     "dev": "nodemon src/server.ts"
   },
   "keywords": [],
@@ -13,7 +13,8 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
