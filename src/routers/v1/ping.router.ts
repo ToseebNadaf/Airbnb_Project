@@ -1,5 +1,5 @@
 import express from "express";
-import { pingHandler } from "../../controllers/ping.controller.js";
+import { pingHandler } from "../../controllers/ping.controller";
 
 const pingRouter = express.Router();
 

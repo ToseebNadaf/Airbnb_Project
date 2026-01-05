@@ -2,10 +2,9 @@
   "name": "airbnb_project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "server.ts",
   "scripts": {
-    "start": "ts-node src/server.ts",
+    "start": "npx ts-node src/server.ts",
     "dev": "nodemon src/server.ts"
   },
   "keywords": [],
