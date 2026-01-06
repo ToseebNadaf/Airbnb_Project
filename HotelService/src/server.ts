@@ -19,6 +19,6 @@ app.use(genericErrorHandler);
 
 app.listen(serverConfig.PORT, async () => {
   logger.info(`Server is running on port ${serverConfig.PORT}`);
-  await sequelize.authenticate();
+  // await sequelize.authenticate();
   logger.info("Database connected successfully");
 });
