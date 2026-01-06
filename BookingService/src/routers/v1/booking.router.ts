@@ -1,7 +1,7 @@
 import express from "express";
 import { validateRequestBody } from "../../validators";
-import { createBookingHandler } from "../../controller/booking.controller";
 import { bookingSchema } from "../../validators/booking.validator";
+import { createBookingHandler } from "../../controllers/booking.controller";
 
 const bookingRouter = express.Router();
 
