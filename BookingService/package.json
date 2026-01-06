@@ -1,13 +1,11 @@
 {
-  "name": "airbnb_project",
+  "name": "BookingService",
   "version": "1.0.0",
   "description": "",
   "main": "server.ts",
   "scripts": {
     "start": "ts-node src/server.ts",
-    "dev": "nodemon src/server.ts",
-    "migrate": "sequelize-cli db:migrate",
-    "rollback": "sequelize-cli db:migrate:undo"
+    "dev": "nodemon src/server.ts"
   },
   "keywords": [],
   "author": "",
