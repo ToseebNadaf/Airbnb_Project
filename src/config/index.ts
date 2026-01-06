@@ -18,12 +18,12 @@ function loadEnv() {
 loadEnv();
 
 export const serverConfig: ServerConfig = {
-  PORT: Number(process.env.PORT) || 3000,
+  PORT: Number(process.env.PORT),
 };
 
 export const dbConfig: DBconfig = {
-  DB_USER: process.env.DB_USER || "root",
-  DB_PASSWORD: process.env.DB_PASSWORD || "root",
-  DB_NAME: process.env.DB_NAME || "test_db",
-  DB_HOST: process.env.DB_HOST || "localhost",
+  DB_USER: String(process.env.DB_USER),
+  DB_PASSWORD: String(process.env.DB_PASSWORD),
+  DB_NAME: String(process.env.DB_NAME),
+  DB_HOST: String(process.env.DB_HOST),
 };
